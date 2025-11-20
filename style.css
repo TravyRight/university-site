@@ -1,0 +1,203 @@
+body {
+    background-color: rgb(75, 75, 100);
+    font-family: "Open Sans", sans-serif;
+    margin: 0px;
+}
+
+
+
+
+
+.header {
+    background-color: rgb(50, 50, 75);
+    padding: 15px 0;
+    box-shadow: 0 0 20px rgb(50, 50, 50);
+}
+
+.header-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 2500px;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 150px;
+}
+
+.nav {
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nav-item {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15;
+
+    margin: 20px;
+
+    transition: text-shadow 0.3s linear;
+}
+
+.nav-item:hover {
+    text-shadow: 0 0 7px #fff;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    margin: 90px;
+    height: 90px;
+}
+
+
+
+
+
+.cards-holder {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: rgb(175, 75, 75);
+    box-shadow: 0 0 20px rgb(50, 50, 50);
+    border-radius: 10px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+
+    min-height: 350px;
+    min-width: 245px;
+    max-height: 350px;
+    max-width: 245px;
+
+    transition: box-shadow 0.3s linear;
+}
+
+.card:hover {
+    box-shadow: 0 0 20px rgb(175, 75, 75);
+}
+
+.card-link {
+    text-decoration: none;
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+
+    margin: 10px;
+    height: 300px;
+}
+
+.card-title {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 15;
+
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 20px;
+}
+
+.info-image{
+    display: flex;
+    justify-content: center;
+
+    height: 300px;
+}
+
+.info-name{
+    color: rgb(255, 255, 255);
+    font-weight: 1000;
+    font-size: 50;
+
+    display: flex;
+    justify-content: center;
+}
+
+.info-date {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 20;
+
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 20px;
+}
+
+.info-description {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 20;
+
+    margin-bottom: 20px;
+}
+
+.button-back {
+    color: rgb(150, 150, 150);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20;
+
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.info-blocks {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.block-title {
+    color: rgb(255, 255, 255);
+    font-weight: 1000;
+    font-size: 50;
+
+    display: flex;
+
+    margin-bottom: 20px;
+}
+
+.block-description {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 20;
+
+    display: flex;
+
+    margin-bottom: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}

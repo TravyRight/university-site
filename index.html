@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Yanone+Kaffeesatz:wght@600&display=swap" rel="stylesheet">
+    <title>Женщины-Математики</title>
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <div class="main-page">
+        <div class="info-blocks">
+
+            <div class="block">
+                <div class="block-title">
+                    ВВЕДЕНИЕ
+                </div>
+
+                <div class="block-description">
+                    Женщины-математики играют важную роль в мире науки и образования.
+                    Они внесли значительный вклад в различные области математики, включая алгебру,
+                    геометрию, теорию чисел, и многие другие. Некоторые из них стали известными учеными
+                    и профессорами, вдохновляя других женщин преодолевать стереотипы и заниматься математикой.
+                    Женщины-математики продолжают расширять наше понимание мира через свои исследования и
+                    образовательную работу.<br /><br />
+
+                    Еще пару сотен лет назад такое сложно было представить.
+                    Однако история помнит имена знаменитых женщин-математиков, которые боролись за свои права,
+                    добивались признания, и сегодня об их научных достижениях знает весь мир.
+                </div>
+            </div>
+
+            <div class="block">
+                <div class="block-title">
+                    КРАТКАЯ ИНФОРМАЦИЯ
+                </div>
+
+                <div class="block-description">
+                    На сайте представлена информация об одних из самых изместных женщин, посветивших свою жизнь математики:
+                    Софья Ковалевская, Софи Жермен и другие...
+                </div>
+            </div>
+
+            <div class="block">
+                <div class="block-title">
+                    БЫСТРЫЙ ПЕРЕХОД
+                </div>
+
+                <div class="block-description">
+                    <select id="womenSelect">
+                        <option value="Софья Ковалевская">Софья Ковалевская</option>
+                        <option value="Софи Жермен">Софи Жермен</option>
+                        <option value="Августа Ада Кинг">Августа Ада Кинг</option>
+                        <option value="Амалия Эмми Нётер">Амалия Эмми Нётер</option>
+                    </select>
+
+                    <button onclick="openPage()">
+                         Перейти
+                    </button>
+
+                </div>
+            </div>
+
+            <div class="block">
+                <div class="block-title">
+                    ОЦЕНИТЬ САЙТ
+                </div>
+
+                <div class="block-description">
+                    <input type="number" id="number" placeholder="1-10">
+                    <button onclick="mark()">
+                        оценить
+                    </button>
+                </div>
+
+                <div class="block-description">
+                    <div id="markResult"></div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
